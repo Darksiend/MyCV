@@ -1,0 +1,29 @@
+/* Nav Bar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: aqua;
+  padding: 15px;
+}
+
+.link-list li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.link-list li a {
+  text-decoration: none;
+  color: grey;
+}
+
+.link-list {
+  list-style: none;
+}
