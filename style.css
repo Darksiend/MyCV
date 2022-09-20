@@ -97,6 +97,7 @@ main {
 /* Buttons */
 .buttons {
   padding-top: 30px;
+  text-align: center;
 }
 
 .buttons button {
