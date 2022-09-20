@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 /* Nav Bar */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -10,8 +13,16 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  background-color: aqua;
+  background-color: #3498db;
   padding: 15px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 20px;
+}
+
+.logo {
+  color: #bdc3c7;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .link-list li {
@@ -21,7 +32,7 @@ nav {
 
 .link-list li a {
   text-decoration: none;
-  color: grey;
+  color: #ecf0f1;
 }
 
 .link-list {
