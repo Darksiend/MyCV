@@ -12,8 +12,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
-  background-color: #3498db;
+  height: 75px;
+  background-color: #253688;
   padding: 15px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 20px;
@@ -33,7 +33,7 @@ nav {
   text-decoration: none;
   color: #ecf0f1;
   text-transform: uppercase;
-  padding: 18px 36px;
+  padding: 18px 16px;
 }
 
 .link-list li a:hover {
@@ -52,6 +52,7 @@ nav {
 main {
   display: flex;
   justify-content: center;
+  height: 600px;
 }
 
 .main-container {
@@ -62,14 +63,52 @@ main {
 .about-me-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.photo img {
+.about-me-container span {
+  flex-basis: 30px;
+}
+
+.about-me-container p {
+  flex-basis: 60px;
+  width: 80%;
+}
+
+.name {
+  flex-basis: 50px;
+}
+
+.photo-container {
+  display: flex;
+  align-items: center;
+}
+
+.photo-container img {
   height: 400px;
   width: 400px;
   border-radius: 100%;
+  box-shadow: 0px 0px 12px #253688;
+  border: 3px solid #ecf0f1;
+}
+
+/* Buttons */
+.buttons {
+  padding-top: 30px;
+}
+
+.buttons button {
+  border: 1px solid grey;
+  padding: 20px 40px;
+  border-radius: 30px;
+  background-color: #ecf0f1;
+  text-transform: uppercase;
+}
+
+.buttons button:hover {
+  background-color: #253688;
+  color: white;
+  box-shadow: 0px 0px 10px #253688;
 }
