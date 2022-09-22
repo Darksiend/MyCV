@@ -156,6 +156,8 @@ footer {
   height: 60px;
   background-color: #253688;
   margin-top: 30px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 /* Media Query */
 
@@ -195,6 +197,13 @@ footer {
     padding-top: 20px;
     align-items: center;
     width: 90%;
+  }
+
+  .what-i-do-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 900px;
   }
 }
 
