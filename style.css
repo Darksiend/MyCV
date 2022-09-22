@@ -138,7 +138,7 @@ main {
 
 .what-i-do-container {
   width: 90%;
-  height: 600px;
+  height: 700px;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
