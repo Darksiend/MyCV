@@ -34,6 +34,8 @@ nav {
   color: #ecf0f1;
   text-transform: uppercase;
   padding: 18px 16px;
+  transition: 0.5s;
+  border-radius: 30px;
 }
 
 .link-list li a:hover {
@@ -108,6 +110,7 @@ main {
   border-radius: 30px;
   background-color: #ecf0f1;
   text-transform: uppercase;
+  transition: 0.5s;
 }
 
 .buttons button:hover {
