@@ -57,7 +57,9 @@ main {
 
 .main-container {
   display: flex;
+  align-items: center;
   width: 80%;
+  height: 100vh;
 }
 
 .about-me-container {
