@@ -150,6 +150,30 @@ main {
   width: 100%;
   height: 100%;
   border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.what-i-do-cell img {
+  height: 30%;
+  width: 30%;
+  transition: all 1.5s ease-in-out;
+}
+
+.what-i-do-cell img:hover {
+  transform: rotate(360deg);
+}
+
+.what-i-do-cell h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.what-i-do-cell p {
+  width: 50%;
 }
 
 /* Footer */
